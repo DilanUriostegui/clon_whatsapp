@@ -1,5 +1,10 @@
 import 'package:flutter/material.dart';
 
+import 'package:clone_whatsapp/src/pages/camera_screen.dart';
+import 'package:clone_whatsapp/src/pages/chat_screen.dart';
+import 'package:clone_whatsapp/src/pages/estado_screen.dart';
+import 'package:clone_whatsapp/src/pages/llamadas_screen.dart';
+
 class WhatsAppHome extends StatefulWidget {
   @override
   _WhatsAppHomeState createState() => _WhatsAppHomeState();
@@ -35,9 +40,22 @@ class _WhatsAppHomeState extends State<WhatsAppHome>
           ]
         ),
       ),
-      body: Container(
-
-      )
+      body: TabBarView(
+        controller: _tabController,
+        children: [
+          CameraScreen(),
+          ChatScreen(),
+          EstadoScreen(),
+          LlamadasScreen(),
+        ]
+      ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: (){
+          print('Nuevo mensaje');
+        },
+        child: Icon(Icons.message),
+        backgroundColor: Theme.of(context).accentColor,
+      ),
     );
   }
 }

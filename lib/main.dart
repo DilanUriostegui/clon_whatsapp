@@ -12,8 +12,8 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Whatsapp',
       theme: ThemeData(
-        primaryColor: Colors.green[900],
-        accentColor: Colors.white,
+        primaryColor: Colors.lightGreen[900],
+        accentColor: Colors.lightGreen[900],
       ),
       home: WhatsAppHome(),
     );
