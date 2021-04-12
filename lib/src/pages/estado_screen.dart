@@ -3,7 +3,12 @@ import 'package:flutter/material.dart';
 import 'package:clone_whatsapp/src/models/estado_model.dart';
 
 
-class EstadoScreen extends StatelessWidget {
+class EstadoScreen extends StatefulWidget {
+  @override
+  _EstadoScreenState createState() => _EstadoScreenState();
+}
+
+class _EstadoScreenState extends State<EstadoScreen> {
   @override
   Widget build(BuildContext context) {
     return ListView.builder(
