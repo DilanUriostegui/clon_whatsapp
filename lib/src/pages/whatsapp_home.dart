@@ -39,6 +39,14 @@ class _WhatsAppHomeState extends State<WhatsAppHome>
             Tab(text: 'Llamadas'),
           ]
         ),
+        actions: [
+          Icon(Icons.search),
+          Padding(
+            padding: EdgeInsets.symmetric(horizontal: 5.0),
+            child: Icon(Icons.more_vert),
+            
+          )
+        ],
       ),
       body: TabBarView(
         controller: _tabController,
@@ -53,7 +61,7 @@ class _WhatsAppHomeState extends State<WhatsAppHome>
         onPressed: (){
           print('Nuevo mensaje');
         },
-        child: Icon(Icons.message),
+        child: Icon(Icons.message, color: Colors.white,),
         backgroundColor: Theme.of(context).accentColor,
       ),
     );
