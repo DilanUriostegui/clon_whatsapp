@@ -21,7 +21,7 @@ List<EstadoModel> dummyDataState = [
   EstadoModel(
     nombre: 'Pedro',
     hora: 'Hoy 10:00',
-    avatarURL: 'https://i.pinimg.com/564x/9b/18/2c/9b182c32cc0926f48f555f0a9c82de5e.jpg',
+    avatarURL: 'https://i.pinimg.com/474x/0d/80/fc/0d80fcbaf56744266b780b1c5f5f1151.jpg',
   ),
   EstadoModel(
     nombre: 'Valeria',

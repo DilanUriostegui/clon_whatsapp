@@ -11,13 +11,13 @@ class LlamadasModel{
 
   List<LlamadasModel> dummyDataCall = [
     LlamadasModel(
-      nombre: "Valeria",
+      nombre: "Daniela",
       fechaHora: "(3) 12 de abril 11:50",
       icono: Icons.video_call,
       avatarUrl: 'https://cdn.pixabay.com/photo/2015/07/09/00/29/woman-837156_1280.jpg'
     ),
     LlamadasModel(
-      nombre: "Valeria",
+      nombre: "Daniela",
       fechaHora: " 9 de abril 17:00",
       icono: Icons.call,
       avatarUrl: 'https://cdn.pixabay.com/photo/2015/07/09/00/29/woman-837156_1280.jpg'
